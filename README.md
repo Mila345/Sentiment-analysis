@@ -52,7 +52,7 @@ The sentiment analysis model is trained using the train.csv dataset. You can adj
 python training_sent_an.py
 
 ### Word cloud generation
-To generate a word cloud visualization of the most frequent words in your text data, use the word_cloud.py script:
+To generate a word cloud visualization of the most frequent words in text data (External_data.csv), use the word_cloud.py script:
 
 python word_cloud.py
 
