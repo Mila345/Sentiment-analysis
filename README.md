@@ -58,13 +58,13 @@ python word_cloud.py
 
 ### File structure
 
-External_data.csv: Input data set
-train.csv: Training data set
-test.csv: Testing data set
-training_sent_an.py: Python script for data cleaning, model training, and testing
-word_cloud.py: Python script for generating word clouds
-requirements.txt: List of required Python libraries
-results/: Directory for storing trained models and evaluation results
+- External_data.csv: Input data set
+- train.csv: Training data set
+- test.csv: Testing data set
+- training_sent_an.py: Python script for data cleaning, model training, and testing
+- word_cloud.py: Python script for generating word clouds
+- requirements.txt: List of required Python libraries
+- results/: Directory for storing trained models and evaluation results. The file model.safetensors is not included due it's large size but it can be provided upon request. 
 
 ### Contributing
 Contributions are welcome! If you have any improvements or suggestions for this project, please create a pull request or open an issue.
