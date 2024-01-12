@@ -42,12 +42,18 @@ Sentiment analysis is the process of determining the sentiment or emotion expres
    git clone https://github.com/yourusername/sentiment-analysis-bert.git
 
 ### Data Cleaning and preparation
+This script will perform data cleaning tasks, including lowercasing, special character removal, handling missing values, and dataset balancing.
+
 python training_sent_an.py
 
 ### Model training and testing
+The sentiment analysis model is trained using the train.csv dataset. You can adjust model hyperparameters in the training_sent_an.py script. 
+
 python training_sent_an.py
 
 ### Word cloud generation
+To generate a word cloud visualization of the most frequent words in your text data, use the word_cloud.py script:
+
 python word_cloud.py
 
 ### File structure
